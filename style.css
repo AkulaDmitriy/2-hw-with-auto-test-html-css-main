@@ -161,5 +161,6 @@ footer {
     /* Стили для футера */
     font-size: 14px;
     color: #2965F1;
+    text-decoration: none;
 
 }
