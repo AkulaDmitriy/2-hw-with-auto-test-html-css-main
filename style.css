@@ -5,7 +5,10 @@
 	box-sizing: border-box;
 }
 
-body {}
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
 
 header {
     /* Стили для хедера */
@@ -27,7 +30,8 @@ header span {
 
 .main-section {
     /* Стили для первой секции */
-   
+   background-color: #fafaff;
+   padding: 60px 0px;
 }
 
 .main-title {
@@ -36,6 +40,7 @@ header span {
     font-weight: 700;
     font-size: 48px;
     color: #303030;
+    margin-bottom: 20px;
 }
 
 .main-text {
@@ -48,15 +53,18 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
+    max-width: 715px;
 }
 
 
 .about-section {
     /* Стили для второй секции */
+    padding: 100px 0px;
 }
 
 select {
     /* Стили для выпадающего списка */
+    background-repeat: no-repeat;
 }
 
 .section-title {
