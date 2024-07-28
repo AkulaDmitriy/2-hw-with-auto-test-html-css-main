@@ -107,18 +107,40 @@ text-align: left;
 
 .text-field {
     /* Стили для односточного поля ввода текста */
+    width: 330px;
+    height: 36px;
+    top: 1525px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px solid #303030;
+    
 }
 
 .btn {
     /* Стили для кнопки */
+    width: 125px;
+    height: 36px;
+    top: 1525px;
+    left: 339px;
+    border-radius: 5px 0px 0px 0px;
+    
+
 }
 
 .line {
     /* Стили для линии */
+    border: 1px solid #3030304D;
 }
 
 table {
     /* Стили для таблицы */
+    background: #303030;
+    width: 300px;
+    height: 196px;
+    top: 1681px;
+    border: 1px solid #95A1BB;
+    
+
 }
 
 th, td {
@@ -128,17 +150,13 @@ th, td {
 footer {
     /* Стили для футера */
     background-color: #A3A7FF;
-    height: 70px;
-    top: 1977px;
+    padding: 26px 0px;
     
 }
 
 .footer-link {
     /* Стили для футера */
-    width: 78px;
-height: 17px;
-top: 2003px;
-left: 1px;
-color: #2965F1;
+    font-size: 14px;
+    color: #2965F1;
 
 }
