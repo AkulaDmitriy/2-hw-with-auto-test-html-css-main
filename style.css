@@ -69,18 +69,40 @@ select {
 
 .section-title {
     /* Стили для заголовков во второй секции */
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #303030;
+
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    padding: 0px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    list-style-image: url(/assets/img/Vector.png);
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 20px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+
 }
 
 .text-field {
@@ -105,8 +127,18 @@ th, td {
 
 footer {
     /* Стили для футера */
+    background-color: #A3A7FF;
+    height: 70px;
+    top: 1977px;
+    
 }
 
 .footer-link {
     /* Стили для футера */
+    width: 78px;
+height: 17px;
+top: 2003px;
+left: 1px;
+color: #2965F1;
+
 }
