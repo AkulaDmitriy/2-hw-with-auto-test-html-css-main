@@ -110,7 +110,7 @@ text-align: left;
     width: 330px;
     height: 36px;
     top: 1525px;
-    gap: 0px;
+    font-size: 16px;
     border-radius: 5px 0px 0px 0px;
     border: 1px solid #303030;
     
@@ -123,13 +123,14 @@ text-align: left;
     top: 1525px;
     left: 339px;
     border-radius: 5px 0px 0px 0px;
-    
+    color: rgb(255, 255, 255);
 
 }
 
 .line {
     /* Стили для линии */
     border: 1px solid #3030304D;
+    margin: 60px 0px;
 }
 
 table {
@@ -139,12 +140,14 @@ table {
     height: 196px;
     top: 1681px;
     border: 1px solid #95A1BB;
+    font-size: 14px;
     
 
 }
 
 th, td {
     /* Стили для ячеек таблицы */
+    padding: 12px 15px;
 }
 
 footer {
